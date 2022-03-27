@@ -1,0 +1,9 @@
+<Location /svn>
+DAV svn
+SVNParentPath /var/www/svn
+
+AuthType Basic
+AuthName "Subversion Repository"
+AuthUserFile /var/www/svn/password
+Require valid-user
+</Location>
